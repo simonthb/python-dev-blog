@@ -16,7 +16,9 @@
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="page-caption">
-                        <h1 class="page-title">Python Blog</h1>
+                        <h1 class="page-title">
+                            <a href="/" class="go-to-home" target="_self">Python Blog</a>
+                        </h1>
                     </div>
                 </div>
             </div>
@@ -40,7 +42,7 @@
                             <img src="../../static/images/python-dev-logo.png" alt="Python Developer Logo" width="35">
                             Python Developer Blog</a> 
                             {% if user.is_authenticated %}
-                            <a href="{% url 'post_new' %}" class="top-menu">  
+                            <a href="{% url 'post_new' %}" class="top-menu" target="_self">  
                                 <span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
                             {% endif %}    
                             </br>

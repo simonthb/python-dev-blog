@@ -28,4 +28,4 @@ a:focus, a:hover { text-decoration: none; color: #20dbaf; }
 .footer a {font-family: 'DM Mono', monospace; font-weight: 300;}
 button, input, select[multiple], textarea {width: 100%; background-image: none;}
 .edit-post {font-size: 1.75em;}
-
+a.go-to-home {color: white;}
