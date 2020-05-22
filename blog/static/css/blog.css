@@ -1,3 +1,4 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
 body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0px; font-size: 17px; color: #8d8f90; font-weight: 400; line-height: 32px; background-color: #edefef; }
 h1, h2, h3, h4, h5, h6 { color: #25292a; margin: 0px 0px 10px 0px; font-family: 'DM Mono', monospace;
@@ -22,4 +23,9 @@ a:focus, a:hover { text-decoration: none; color: #20dbaf; }
 .card-block { padding: 80px; }
 .section-title { margin-bottom: 35px !important; }
 .date {color: #cccccc; font-family: 'DM Mono', monospace; font-weight: 300;}
+.footer {padding-top: 10px;}
+.photo-credit {color: #cccccc; font-family: 'DM Mono', monospace; font-weight: 300; font-size: .75em;}
+.footer a {font-family: 'DM Mono', monospace; font-weight: 300;}
+button, input, select[multiple], textarea {width: 100%; background-image: none;}
+.edit-post {font-size: 1.75em;}
 
